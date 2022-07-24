@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	_ "github.com/infosechoudini/telegraf-bacnet/plugins/inpus/bacnet"
+	_ "github.com/infosechoudini/telegraf-bacnet/plugins/inputs/bacnet"
 
 	"github.com/influxdata/telegraf/plugins/common/shim"
 )

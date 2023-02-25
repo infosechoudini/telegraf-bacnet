@@ -2,11 +2,13 @@ module github.com/infosechoudini/telegraf-bacnet
 
 go 1.18
 
-require github.com/influxdata/telegraf v1.23.2
+require (
+	github.com/influxdata/telegraf v1.23.2
+	github.com/zmap/zgrab2 v0.1.7
+)
 
 require (
 	collectd.org v0.5.0 // indirect
-	github.com/766b/go-outliner v0.0.0-20180511142203-fc6edecdadd7 // indirect
 	github.com/BurntSushi/toml v0.4.1 // indirect
 	github.com/alecthomas/participle v0.4.1 // indirect
 	github.com/alecthomas/units v0.0.0-20210208195552-ff826a37aa15 // indirect
@@ -46,12 +48,11 @@ require (
 	github.com/zmap/rc2 v0.0.0-20131011165748-24b9757f5521 // indirect
 	github.com/zmap/zcrypto v0.0.0-20200508204656-27de22294d44 // indirect
 	github.com/zmap/zflags v1.4.0-beta.1 // indirect
-	github.com/zmap/zgrab2 v0.1.7 // indirect
 	go.uber.org/atomic v1.9.0 // indirect
 	go.uber.org/multierr v1.6.0 // indirect
 	golang.org/x/crypto v0.0.0-20220315160706-3147a52a75dd // indirect
-	golang.org/x/net v0.0.0-20220607020251-c690dde0001d // indirect
-	golang.org/x/sys v0.0.0-20220610221304-9f5ed59c137d // indirect
-	golang.org/x/text v0.3.7 // indirect
+	golang.org/x/net v0.7.0 // indirect
+	golang.org/x/sys v0.5.0 // indirect
+	golang.org/x/text v0.7.0 // indirect
 	google.golang.org/protobuf v1.28.0 // indirect
 )
